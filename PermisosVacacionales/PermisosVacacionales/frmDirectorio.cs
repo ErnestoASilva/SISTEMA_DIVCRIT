@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+//uses
 namespace PermisosVacacionales
 {
     public partial class frmDirectorio : Form
