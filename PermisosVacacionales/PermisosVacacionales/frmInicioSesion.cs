@@ -94,6 +94,7 @@ namespace PermisosVacacionales
 
         private void frmInicioSesion_FormClosed(object sender, FormClosedEventArgs e)
         {
+        //Cerrar la aplicación al pulsar el botón de cerrar.
             Application.Exit();
 
         }
