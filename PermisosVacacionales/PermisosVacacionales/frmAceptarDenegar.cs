@@ -304,11 +304,6 @@ namespace PermisosVacacionales
             conexion.Close();
         }
 
-        private void lblNomina_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             //PREGUNTA EL TIPO DE PERMISO A PROCESAR 
