@@ -85,7 +85,7 @@ namespace PermisosVacacionales
             // btnAceptar
             // 
             this.btnAceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAceptar.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnAceptar.ForeColor = System.Drawing.Color.Black;
             this.btnAceptar.Location = new System.Drawing.Point(219, 447);
             this.btnAceptar.Name = "btnAceptar";
@@ -98,7 +98,7 @@ namespace PermisosVacacionales
             // btnDenegar
             // 
             this.btnDenegar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnDenegar.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.btnDenegar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnDenegar.ForeColor = System.Drawing.Color.Black;
             this.btnDenegar.Location = new System.Drawing.Point(93, 447);
             this.btnDenegar.Name = "btnDenegar";
@@ -112,23 +112,24 @@ namespace PermisosVacacionales
             // 
             this.lblNomina.AutoSize = true;
             this.lblNomina.BackColor = System.Drawing.Color.Transparent;
-            this.lblNomina.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.lblNomina.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblNomina.ForeColor = System.Drawing.Color.White;
             this.lblNomina.Location = new System.Drawing.Point(6, 34);
             this.lblNomina.Name = "lblNomina";
-            this.lblNomina.Size = new System.Drawing.Size(75, 21);
+            this.lblNomina.Size = new System.Drawing.Size(67, 20);
             this.lblNomina.TabIndex = 5;
             this.lblNomina.Text = "Nómina:";
+            this.lblNomina.Click += new System.EventHandler(this.lblNomina_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 55);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 21);
+            this.label1.Size = new System.Drawing.Size(64, 20);
             this.label1.TabIndex = 6;
             this.label1.Text = "Estado:";
             // 
@@ -136,11 +137,11 @@ namespace PermisosVacacionales
             // 
             this.lblTipoPermiso.AutoSize = true;
             this.lblTipoPermiso.BackColor = System.Drawing.Color.Transparent;
-            this.lblTipoPermiso.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.lblTipoPermiso.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblTipoPermiso.ForeColor = System.Drawing.Color.White;
             this.lblTipoPermiso.Location = new System.Drawing.Point(6, 92);
             this.lblTipoPermiso.Name = "lblTipoPermiso";
-            this.lblTipoPermiso.Size = new System.Drawing.Size(133, 21);
+            this.lblTipoPermiso.Size = new System.Drawing.Size(126, 20);
             this.lblTipoPermiso.TabIndex = 7;
             this.lblTipoPermiso.Text = "Tipo de Permiso:";
             // 
@@ -148,11 +149,11 @@ namespace PermisosVacacionales
             // 
             this.lblDiasPedidos.AutoSize = true;
             this.lblDiasPedidos.BackColor = System.Drawing.Color.Transparent;
-            this.lblDiasPedidos.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.lblDiasPedidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblDiasPedidos.ForeColor = System.Drawing.Color.White;
             this.lblDiasPedidos.Location = new System.Drawing.Point(6, 121);
             this.lblDiasPedidos.Name = "lblDiasPedidos";
-            this.lblDiasPedidos.Size = new System.Drawing.Size(110, 21);
+            this.lblDiasPedidos.Size = new System.Drawing.Size(106, 20);
             this.lblDiasPedidos.TabIndex = 8;
             this.lblDiasPedidos.Text = "Días Pedidos:";
             // 
@@ -160,11 +161,11 @@ namespace PermisosVacacionales
             // 
             this.lblFechaInicio.AutoSize = true;
             this.lblFechaInicio.BackColor = System.Drawing.Color.Transparent;
-            this.lblFechaInicio.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.lblFechaInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblFechaInicio.ForeColor = System.Drawing.Color.White;
             this.lblFechaInicio.Location = new System.Drawing.Point(6, 150);
             this.lblFechaInicio.Name = "lblFechaInicio";
-            this.lblFechaInicio.Size = new System.Drawing.Size(112, 21);
+            this.lblFechaInicio.Size = new System.Drawing.Size(102, 20);
             this.lblFechaInicio.TabIndex = 9;
             this.lblFechaInicio.Text = "Fecha Inicial:";
             // 
@@ -172,11 +173,11 @@ namespace PermisosVacacionales
             // 
             this.lblFechaFinal.AutoSize = true;
             this.lblFechaFinal.BackColor = System.Drawing.Color.Transparent;
-            this.lblFechaFinal.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.lblFechaFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblFechaFinal.ForeColor = System.Drawing.Color.White;
             this.lblFechaFinal.Location = new System.Drawing.Point(6, 179);
             this.lblFechaFinal.Name = "lblFechaFinal";
-            this.lblFechaFinal.Size = new System.Drawing.Size(102, 21);
+            this.lblFechaFinal.Size = new System.Drawing.Size(96, 20);
             this.lblFechaFinal.TabIndex = 10;
             this.lblFechaFinal.Text = "Fecha Final:";
             // 
@@ -184,11 +185,11 @@ namespace PermisosVacacionales
             // 
             this.lblMotivo.AutoSize = true;
             this.lblMotivo.BackColor = System.Drawing.Color.Transparent;
-            this.lblMotivo.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.lblMotivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblMotivo.ForeColor = System.Drawing.Color.White;
             this.lblMotivo.Location = new System.Drawing.Point(6, 208);
             this.lblMotivo.Name = "lblMotivo";
-            this.lblMotivo.Size = new System.Drawing.Size(69, 21);
+            this.lblMotivo.Size = new System.Drawing.Size(59, 20);
             this.lblMotivo.TabIndex = 11;
             this.lblMotivo.Text = "Motivo:";
             // 
@@ -196,11 +197,11 @@ namespace PermisosVacacionales
             // 
             this.lblEstadoRH.AutoSize = true;
             this.lblEstadoRH.BackColor = System.Drawing.Color.Transparent;
-            this.lblEstadoRH.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.lblEstadoRH.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblEstadoRH.ForeColor = System.Drawing.Color.White;
             this.lblEstadoRH.Location = new System.Drawing.Point(6, 333);
             this.lblEstadoRH.Name = "lblEstadoRH";
-            this.lblEstadoRH.Size = new System.Drawing.Size(77, 21);
+            this.lblEstadoRH.Size = new System.Drawing.Size(66, 20);
             this.lblEstadoRH.TabIndex = 12;
             this.lblEstadoRH.Text = "[estado]";
             // 
@@ -208,11 +209,11 @@ namespace PermisosVacacionales
             // 
             this.lblEstadoJefe.AutoSize = true;
             this.lblEstadoJefe.BackColor = System.Drawing.Color.Transparent;
-            this.lblEstadoJefe.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.lblEstadoJefe.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblEstadoJefe.ForeColor = System.Drawing.Color.White;
             this.lblEstadoJefe.Location = new System.Drawing.Point(6, 389);
             this.lblEstadoJefe.Name = "lblEstadoJefe";
-            this.lblEstadoJefe.Size = new System.Drawing.Size(77, 21);
+            this.lblEstadoJefe.Size = new System.Drawing.Size(66, 20);
             this.lblEstadoJefe.TabIndex = 13;
             this.lblEstadoJefe.Text = "[estado]";
             // 
@@ -220,11 +221,11 @@ namespace PermisosVacacionales
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.BackColor = System.Drawing.Color.Transparent;
-            this.lblNombre.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblNombre.ForeColor = System.Drawing.Color.White;
             this.lblNombre.Location = new System.Drawing.Point(6, 63);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(77, 21);
+            this.lblNombre.Size = new System.Drawing.Size(69, 20);
             this.lblNombre.TabIndex = 14;
             this.lblNombre.Text = "Nombre:";
             // 
@@ -247,7 +248,7 @@ namespace PermisosVacacionales
             this.gbxSolicitud.Controls.Add(this.lblMotivo);
             this.gbxSolicitud.Controls.Add(this.lblFechaInicio);
             this.gbxSolicitud.Controls.Add(this.lblFechaFinal);
-            this.gbxSolicitud.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.gbxSolicitud.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.gbxSolicitud.ForeColor = System.Drawing.Color.White;
             this.gbxSolicitud.Location = new System.Drawing.Point(573, 72);
             this.gbxSolicitud.Name = "gbxSolicitud";
@@ -260,11 +261,11 @@ namespace PermisosVacacionales
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(6, 368);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(275, 21);
+            this.label2.Size = new System.Drawing.Size(253, 20);
             this.label2.TabIndex = 17;
             this.label2.Text = "Estado de Solicitud a Jefe Directo:";
             // 
@@ -272,11 +273,11 @@ namespace PermisosVacacionales
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(6, 312);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(325, 21);
+            this.label3.Size = new System.Drawing.Size(308, 20);
             this.label3.TabIndex = 16;
             this.label3.Text = "Estado de Solicitud a Recursos Humanos:";
             // 
