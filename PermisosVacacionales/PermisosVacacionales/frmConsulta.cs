@@ -590,7 +590,7 @@ namespace PermisosVacacionales
             {
                 sqlCmd2.ExecuteNonQuery();
                 MessageBox.Show("Se ha enviado exitosamente la solicitud.", "Petición Exitosa.", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                //enviarCorreo();
+                enviarCorreo();
 
             }
             catch (SqlException ex)
