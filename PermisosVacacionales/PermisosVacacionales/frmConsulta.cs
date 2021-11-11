@@ -19,6 +19,7 @@ using System.IO;
 
 namespace PermisosVacacionales
 {
+    //Comentario de Prueba 2.0
     public partial class frmConsulta : Form
     {
         public frmConsulta()
