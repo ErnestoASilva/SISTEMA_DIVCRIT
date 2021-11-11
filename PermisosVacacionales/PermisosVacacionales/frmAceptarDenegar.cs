@@ -265,7 +265,7 @@ namespace PermisosVacacionales
             rellenarLabels();
             
 
-            //conexion.Close();
+            //conexion.Close(); Comentario cambiado
 
         }
 
