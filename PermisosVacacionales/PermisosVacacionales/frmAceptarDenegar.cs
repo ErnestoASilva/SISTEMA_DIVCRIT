@@ -17,7 +17,7 @@ namespace PermisosVacacionales
         {
             InitializeComponent();
         }
-        //Prueba
+        //Prueba 2
         //static string cadena = "Server=tutuli;Database=SISTEMA_CRIT;User Id=sa;Password=Sistemas21;";
         static string cadena = "Data Source = DESKTOP-H64H067; Initial Catalog =SISTEMA_CRIT;Persist Security Info=True;User ID = Admin; Password = admin1";
 
